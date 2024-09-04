@@ -23,9 +23,7 @@ resource "aws_dynamodb_table" "tf-db" {
 
   tags = {
     Name        ="TF db"
-  }
-}
-
+ 
 
 
 resource "aws_instance" "mansitasknew1" {
